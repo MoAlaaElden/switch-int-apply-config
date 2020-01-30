@@ -1,0 +1,12 @@
+no authentication event fail action next-method
+no authentication event server dead action reinitialize vlan 10
+no authentication event server dead action authorize voice
+no authentication host-mode multi-auth
+no authentication open
+no authentication order dot1x mab
+no authentication priority dot1x mab
+no authentication port-control auto
+no authentication violation restrict
+no mab
+no dot1x pae authenticator
+no dot1x timeout tx-period 5
