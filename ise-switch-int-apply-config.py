@@ -90,7 +90,7 @@ def main(current_ip_address, current_index, vlan_id):
         device.init_connection_ssh()
         intf_name = device.collect_interfaces()
         device.apply_intf_config(intf_name)
-        device.write_result()
+        device.write_result(current_ip_address)
         device.close_connection()
 
     return
@@ -98,10 +98,6 @@ def main(current_ip_address, current_index, vlan_id):
 # Check to see if this file is the "__main__" script being executed
 if __name__ == "__main__":
     start_time = time.time()
-    #current_index = 0
-    #current_ip_address = '3.45.48.69'
-    #vlan_id = 10
-    #main(current_ip_address, current_index, vlan_id)
 
     threads = []
     if len(sys.argv) == 3:
