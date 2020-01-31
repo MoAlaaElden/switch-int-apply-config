@@ -1,5 +1,6 @@
 # Cisco Apply config to interfaces in particular VLAN
-> A simple script to apply interface-level configuration to all interface in particular VLAN
+> A simple script to apply interface-level configuration to all interface in particular VLAN.
+> You specify the IP address of switch or list of switches, commands that need to be pushed and vlan
 
 Files:
 * ise-switch-int-apply-config.py - main script
@@ -25,6 +26,11 @@ python ise-switch-int-apply-config.py device.csv <vlan_id>
 Examples:
 * python ise-switch-int-apply-config.py devices.csv 10
 * python ise-switch-int-apply-config.py 10.10.10.10 10
+
+How it works
+* Breakdown post [here](https://dmitrygolovach.com/python-apply-config-to-multiple-interfaces/)
+* How it works [youtube](https://youtu.be/DfhimzoWDJA)
+
 
 ## Contact
 * Created by Dmitry Golovach
