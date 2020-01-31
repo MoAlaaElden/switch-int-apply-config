@@ -18,7 +18,7 @@ Files:
 * Python3
 
 ## Setup
-python ise-switch-int-apply-config.py <IP address> <vlan_id>
+python ise-switch-int-apply-config.py <IP_address> <vlan_id>
 
 python ise-switch-int-apply-config.py device.csv <vlan_id>
 
