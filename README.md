@@ -10,11 +10,6 @@ Files:
 * config_intf_ise.txt - configuration commands that need to be applied
 * device-result.json - stores results of running script
 
-## Table of contents
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Contact](#contact)
-
 ## Technologies
 * Python3
 * Cisco IOS switches
@@ -31,7 +26,6 @@ Examples:
 How it works
 * Breakdown post [here](https://dmitrygolovach.com/python-apply-config-to-multiple-interfaces/)
 * How it works [youtube](https://youtu.be/DfhimzoWDJA)
-
 
 ## Contact
 * Created by Dmitry Golovach
