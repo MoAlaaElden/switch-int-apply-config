@@ -12,7 +12,7 @@ Files:
 
 ## Technologies
 * Python3
-* Cisco IOS switches
+* Cisco IOS switch
 
 ## Setup
 python ise-switch-int-apply-config.py <IP_address> <vlan_id>
