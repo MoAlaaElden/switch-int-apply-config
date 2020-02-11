@@ -9,6 +9,9 @@ connect_to_device.py - includes functions: ping and connect SSH/Telnet to the de
 devices.csv - list of IP addresses
 local.py - credentials
 config_intf_ise.txt - configuration commands that need to be applied
+
+(C) 2019 Dmitry Golovach
+email: dmitry.golovach@outlook.com
 """
 
 # Imports
